@@ -14,8 +14,8 @@ const CanvasModel = () => {
     className='w-full max-w-full h-full transistion-all ease-in'
     >
       <ambientLight intensity={0.5}/>
-      {/*<Environment preset="city"/>*/}
-      <Environment path="/hdri/" files="potsdamer_platz_1k.hdr" Environment={null}/>
+      <Environment preset="city"/>
+      {/*<Environment path="/hdri/" files="potsdamer_platz_1k.hdr" Environment={null}/>*/}
       < CameraRig >
         <Backdrop/>
         <Center>
